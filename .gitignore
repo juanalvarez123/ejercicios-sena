@@ -1,0 +1,10 @@
+.class
+.classpath
+.project
+Guia2/build/
+Guia2/build/*
+Guia4/build/
+Guia4/build/*
+Guia3/build/*
+Guia2/.settings/
+Guia2/.settings/*
