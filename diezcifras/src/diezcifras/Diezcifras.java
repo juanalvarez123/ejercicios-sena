@@ -3,7 +3,6 @@ package diezcifras;
 import java.util.Scanner;
  
 public class Diezcifras {
-    
 
     public static void main(String[] args) {
         long x=0;

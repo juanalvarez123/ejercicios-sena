@@ -2,7 +2,7 @@ package guiauno;
 
 import java.util.Scanner;
 
-public class calculadora {
+public class Calculadora {
     
     public static void main (String[] args){
                 

@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class Matriz {
     
-
-
     public static void main(String[] args) {
         Scanner leer= new Scanner(System.in);
         int x=5,y=5;
