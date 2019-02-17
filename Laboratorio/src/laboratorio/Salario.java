@@ -1,4 +1,4 @@
-package laboratorio;
+package Laboratorio;
 
 import java.util.Scanner;
 
@@ -10,16 +10,20 @@ public static void main(String[] args) {
         double comision,porcentaje,auxTra = 0,salarioNeto,totalDeve;
         double salarioBasico,sueldoDevegado,ventas,prestamos,totalDedu = 0;
         String respuesta,cedula,nombreEm;
-        salarioBasico=589500;
+        //salarioBasico=589500;
         porcentaje=0.2;
         Scanner read = new Scanner(System.in);
             
         System.out.println("Bienvenido a sueldo \nEste programa valida el salario correspondiente de un vendedor");
+        
+        System.out.println("Ingrese el salario b·sico actual");
+        salarioBasico=read.nextDouble();
+        
             System.out.println("Ingrese su nombre por favor");
-                nombreEm=read.nextLine();
+                nombreEm=read.next();
                 
                 System.out.println("Ingrese su cedula");
-                cedula=read.nextLine();
+                cedula=read.next();
                                      
                 do{
                 System.out.println("Ingrese los dias laborados");
@@ -62,5 +66,6 @@ public static void main(String[] args) {
         System.out.println("recibe un subsidio transporte por: "+" "+auxTra);
         System.out.println("su salario b√°sico es: "+" "+sueldoDevegado);
         System.out.println("su salario neto es: "+" "+salarioNeto);
+        read.close();
     }
 }

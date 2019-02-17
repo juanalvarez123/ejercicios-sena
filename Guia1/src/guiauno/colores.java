@@ -2,13 +2,13 @@ package guiauno;
 
 import java.util.Scanner;
 
-public class Colores {
+public class colores {
    
     public static void main(String[] args) {
         int num1, num2;
         Scanner leer =new Scanner (System.in);
         System.out.println("Bienvenido a combinación de colores");
-        System.out.println("Este programa realiza combina colores primarios\nPor favor digite la opción");
+        System.out.println("Este programa combina colores primarios\nPor favor digite la opción");
         System.out.println("1. Amarillo");
         System.out.println("2. Azul");
         System.out.println("3. Rojo");
@@ -50,5 +50,6 @@ public class Colores {
         else if ((num1==2 && num2==3)||(num1==3 && num2==2)) {
             System.out.println("Violeta");
             }
+        leer.close();
     }
 }
