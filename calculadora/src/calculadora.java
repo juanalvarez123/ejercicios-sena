@@ -6,9 +6,6 @@ import java.util.List;
 
 public class calculadora extends javax.swing.JFrame {
     
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	String teclado="0",operacion;
     int num1,num2,sumar,restar,mult,divi;
