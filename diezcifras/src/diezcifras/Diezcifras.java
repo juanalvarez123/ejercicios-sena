@@ -1,5 +1,4 @@
 package diezcifras;
-
 import java.util.Scanner;
  
 public class Diezcifras {
@@ -20,7 +19,7 @@ public class Diezcifras {
 	        System.out.println(" Las cifras son " +i);
         }
         catch(Exception e) {
-        	System.out.println(" Las cifras son más o igual a 20");
+        	System.out.println(" Las cifras son mï¿½s o igual a 20");
         }
         //faltaba cerrar esta variable
         leer.close();
