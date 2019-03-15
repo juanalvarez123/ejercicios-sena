@@ -1,4 +1,4 @@
-package guia2;
+package guia2.punto10;
 
 import java.util.Scanner;
 

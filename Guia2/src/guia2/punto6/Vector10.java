@@ -1,4 +1,4 @@
-package guia2;
+package guia2.punto6;
 
 import java.util.Scanner;
 
@@ -11,15 +11,15 @@ public class Vector10 {
 		int[] vector = new int[x];
 		
 		System.out.println("Bienvenido a su programa vector");
-		System.out.println("Este programa le mostrará de forma ascendente/descendete el vector");
+		System.out.println("Este programa le mostrarï¿½ de forma ascendente/descendete el vector");
 		System.out.println("Digite los numeros de su vector(10)");
 		
-		//Leer números
+		//Leer nï¿½meros
 		for (int i = 0; i < x; i++) {
 			vector[i] = leer.nextInt();
 		}
 		
-		//Ordenar vector con método burbuja
+		//Ordenar vector con mï¿½todo burbuja
 		vector = ordenarAscendentementeMetodoBurbuja(vector);
 		
 		//Imprimir vector
@@ -27,7 +27,7 @@ public class Vector10 {
 		for (int i = 0; i < x; i++) {
 			System.out.print(vector[i] + " ");
 		}
-		//Ordenar vector con método burbuja
+		//Ordenar vector con mï¿½todo burbuja
 		vector = ordenarDescendentementeMetodoBurbuja(vector);
 				
 		System.out.println("\n\nVector ordenado descendentemente:\n");

@@ -2,7 +2,7 @@ package guiauno;
 
 import java.util.Scanner;
 
-public class calculadoraGuia1 {
+public class CalculadoraGuia1 {
 
 	public static void main(String[] args) {
 
@@ -37,7 +37,7 @@ public class calculadoraGuia1 {
 
 				num2 = captura.nextDouble();
 			
-			int suma = num1 + num2;
+			int suma = (int) (num1 + num2);
 			System.out.println("La suma es " + suma);
 			} catch (Exception e1) {
 				System.out.println("Por favor digite numeros validos");
@@ -52,7 +52,7 @@ public class calculadoraGuia1 {
 			num1 = captura.nextDouble();
 			System.out.println("Por favor digite el segundo número");
 			num2 = captura.nextDouble();
-			int resta = num1 - num2;
+			int resta = (int) (num1 - num2);
 			System.out.println("El residuo es " + resta);
 		} catch (Exception e1) {
 			System.out.println("Por favor digite numeros validos");
@@ -66,7 +66,7 @@ public class calculadoraGuia1 {
 			num1 = captura.nextDouble();
 			System.out.println("Por favor digite el segundo factor");
 			num2 = captura.nextDouble();
-			int multi = num1 * num2;
+			int multi = (int) (num1 * num2);
 			System.out.println("El producto es " + multi);
 			} catch (Exception e1) {
 				System.out.println("Por favor digite numeros validos");
@@ -101,7 +101,7 @@ public class calculadoraGuia1 {
 			try {
 			System.out.println("Por favor digite el número");
 			num1 = captura.nextDouble();
-			int cuadra = num1 * num1;
+			int cuadra = (int) (num1 * num1);
 			System.out.println("El cuadrado es " + cuadra);
 			} catch (Exception e1) {
 				System.out.println("Por favor digite numeros validos");
